@@ -9,26 +9,31 @@ export const routes = [
   {
     name: 'Home',
     path: '/',
-    fn: Home
+    fn: Home,
+    cy: 'link__home'
   },
   {
     name: 'About',
     path: '/about',
-    fn: About
+    fn: About,
+    cy: 'link__about'
   },
   {
     name: 'Skills',
     path: '/skills',
-    fn: Skills
+    fn: Skills,
+    cy: 'link__skills'
   },
   {
     name: 'Projects',
     path: '/projects',
-    fn: Projects
+    fn: Projects,
+    cy: 'link__projects'
   },
   {
     name: 'Contact',
     path: '/contact',
-    fn: Contact
+    fn: Contact,
+    cy: 'link__contact'
   }
 ]
